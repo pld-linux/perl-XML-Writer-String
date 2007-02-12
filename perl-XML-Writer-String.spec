@@ -2,7 +2,7 @@
 %define	pdir	XML
 %define	pnam	Writer-String
 Summary:	XML::Writer::String - Capture output from XML::Writer
-Summary(pl):	XML::Writer::String - przechwytywanie wyj¶cia z modu³u XML::Writer
+Summary(pl.UTF-8):   XML::Writer::String - przechwytywanie wyjÅ›cia z moduÅ‚u XML::Writer
 Name:		perl-XML-Writer-String
 Version:	0.1
 Release:	0.1
@@ -23,11 +23,11 @@ IO::Handle object and writes XML data to the specified object (or
 STDOUT) via it's print() method. This module simulates such an object
 for the specific purpose of providing the required print() method.
 
-%description -l pl
-Ten modu³ implementuje niewielk± klasê specjalnie do przechwytywania
-danych z modu³u XML::Writer. XML::Writer oczekuje obiektu IO::Handle i
+%description -l pl.UTF-8
+Ten moduÅ‚ implementuje niewielkÄ… klasÄ™ specjalnie do przechwytywania
+danych z moduÅ‚u XML::Writer. XML::Writer oczekuje obiektu IO::Handle i
 zapisuje dane XML do podanego obiektu (lub na STDOUT) poprzez jego
-metodê print(). Ten modu³ symuluje taki obiekt w celu dostarczenia
+metodÄ™ print(). Ten moduÅ‚ symuluje taki obiekt w celu dostarczenia
 wymaganej metody print().
 
 %prep
