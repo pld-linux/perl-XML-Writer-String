@@ -1,6 +1,6 @@
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	XML
 %define	pnam	Writer-String
+%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Writer::String - Capture output from XML::Writer
 Summary(pl.UTF-8):	XML::Writer::String - przechwytywanie wyjścia z modułu XML::Writer
 Name:		perl-XML-Writer-String
@@ -11,6 +11,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/S/SO/SOLIVER/XML-Writer-String-%{version}.tar.gz
 # Source0-md5:	528b3ac5ec9d161fd28ff2ddfe65d3b9
+URL:		http://search.cpan.org/dist/XML-Writer-String/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
