@@ -1,6 +1,5 @@
 %define	pdir	XML
 %define	pnam	Writer-String
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Writer::String - Capture output from XML::Writer
 Summary(pl.UTF-8):	XML::Writer::String - przechwytywanie wyjścia z modułu XML::Writer
 Name:		perl-XML-Writer-String
